@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card{
+    margin-top: 20px;
+    opacity: 30px;
+}
+.gap{
+    margin-left:  10px;;
+}
+.row{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    margin-left: 250px;
+}

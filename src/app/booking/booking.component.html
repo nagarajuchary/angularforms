@@ -1,0 +1,44 @@
+<div class="row">
+    <marquee>Hurry up! Deal close soon! </marquee>
+    <div class="col-2"></div>
+    <div class="col-6 card">
+        <form [formGroup]="booking">
+            <h1 class="pt-4">Booking</h1>
+           <label>Firstname</label>
+           <input type="text" class="form-control" formControlName="firstname">
+           <label>Lastname</label>
+           <input type="text" class="form-control" formControlName="lastname">
+           <label>Mobile Number</label>
+           <input type="number" class="form-control" formControlName="mobilenumber">
+           <label>Email.id</label>
+           <input type="email" class="form-control" formControlName="email">
+           <label id="catagories">Mobile catagories</label><br>
+           <select for="catagories" formControlName="catagories">
+            <option>Select Mobile</option>
+            <option>Apple</option>
+            <option>Samsung</option>
+            <option>Realme</option>
+            <option>Oppo</option>
+            <option>Oneplus</option>
+            <option>Vivo</option>
+           </select><br>
+           <label id="select">MobileModel</label><br>
+           <select for="select" formControlName="select" placeholder="select-color">
+            <option>Iphone 15</option>
+            <option>Oppo f19s</option>
+            <option>Samsung s20</option>
+            <option>realme 5g</option>
+            <option>vivo v20</option>
+            <option>Oneplus 5g</option>
+           </select>
+           <label >Mobile color:</label>
+           <input type="checkbox" id="color" class="gap" formControlName="color">
+           <label for="color">Blue</label>
+           <input type="checkbox" if="green" class="gap" formControlName="color">
+           <label for="green">Green</label><br>
+           <label id="rating">Rating</label>
+           <input type="range" for="rating"> <br>
+           <button (click)="book()" class="btn btn-outline-success mt-2 mb-4">Booknow</button><br>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+button{
+    border: none;
+    background-color: transparent;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+.col-2{
+background-color: beige;
+}
+.header{
+    background-image: url('/assets/bigdata.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    background-color: aquamarine;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.select{
+    background-image:linear-gradient(wheat,white);
+}

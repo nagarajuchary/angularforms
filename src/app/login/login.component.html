@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-2"></div>
+    <div class="col-6 mt-4 card">
+        <form [formGroup]="login">
+            <h1 class="text-center">Login</h1>
+            <label>Username:</label>
+            <input type="text" class="form-control" formControlName="username">
+            <label>Password:</label>
+            <input type="password" class="form-control" formControlName="password">
+            <button class="btn btn-outline-success mt-2 mb-4" (click)="lform()">Login</button>
+        </form>
+    </div>
+</div>

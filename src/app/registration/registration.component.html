@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-6 shadow">
+    <h2 class="pt-5">Registration form</h2>
+    <form [formGroup]="reg" class="mb-4 mt-4">
+      <label>fullname</label>
+      <input type="text" class="form-control" formControlName="fullname">
+      <label>lastname</label>
+      <input type="text" class="form-control" formControlName="lastname">
+      <label>mobile</label>
+      <input type="number" class="form-control" formControlName="mobile">
+      <label>Email</label>
+      <input type="email" class="form-control" formControlName="email">
+      <button (click)="submit()" class="btn btn-outline-success mt-2">Submit</button>
+    </form>
+  </div>
+</div>
